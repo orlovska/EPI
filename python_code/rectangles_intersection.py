@@ -8,6 +8,7 @@ from operator import attrgetter
 def formingTuple(parameters):
     #check the input - list,tuple
     RECTANGLE = collections.namedtuple('RECTANGLE',('x','y','height','width'))
+    List = []
     try:
         for item in range(len(parameters)): 
             List.append(RECTANGLE(parametrs[item]))
@@ -27,7 +28,7 @@ List = [R1, R2, R3, R4, R5]
 print(getsizeof(List))
 
 def rectangle_intersection(parameters):
-
+    
     X = sorted(formingTuple(parameters), key=attrgetter('x','width'))
 
     Result = []

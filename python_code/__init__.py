@@ -1,0 +1,1 @@
+from .rectangles_intersection import rectangle_intersection
