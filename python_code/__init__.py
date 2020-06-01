@@ -1,3 +1,7 @@
 from .rectangles_intersection import rectangle_intersection
 from .rectangles_intersection import formingTuple
 from .rectangles_intersection import sortedTuple
+
+from .recursion_phone_mnemonics import phone_mnemonics
+from .recursion_phone_mnemonics import chars_for_digit
+from .recursion_phone_mnemonics import check_for_more_values
