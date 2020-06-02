@@ -8,3 +8,4 @@ before_other_code_search_places = 0
 sys.path.insert(before_other_code_search_places, project_root)
 
 from python_code import rectangle_intersection
+from python_code import recursion_phone_mnemonics
