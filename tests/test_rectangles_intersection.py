@@ -8,9 +8,6 @@ from operator import attrgetter, itemgetter
 RECTANGLE=collections.namedtuple('RECTANGLE',('x','y','height','width'))
 
 class BasicTest(unittest.TestCase):
-    def __init__(self, RECTANGLE=collections.namedtuple('RECTANGLE',('x','y','height','width'))):
-        unittest.TestCase.__init__(self, RECTANGLE)
-        
     
     def test_input_sort(self):
         self.assertEqual(formingTuple([(5, 4, 1, 1)]), 
