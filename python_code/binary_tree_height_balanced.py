@@ -1,11 +1,11 @@
 import collections
-
-class BinaryTreeNode:
+from binary_tree_node import BinaryTreeNode
+# class BinaryTreeNode:
     
-    def __init__(self, data = None, left = None, right = None):
-        self.data = data
-        self.left = left
-        self.right = right 
+#     def __init__(self, data = None, left = None, right = None):
+#         self.data = data
+#         self.left = left
+#         self.right = right 
          
 
 def is_binary_tree_balanced(tree: BinaryTreeNode):

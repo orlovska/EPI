@@ -13,5 +13,3 @@ def permute_elements(elem, perm) -> str:
             perm[perm[i]], perm[i] = perm[i], perm[perm[i]]
     
     return elem 
-
-print(permute_elements(['a','b','c', 'd'], [0,2,3,1]))
