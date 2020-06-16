@@ -1,7 +1,14 @@
-from binary_tree_node import BinaryTreeNode as N
 import collections
 
-def is_binary_tree_balanced(tree: N):
+class BinaryTreeNode:
+    
+    def __init__(self, data = None, left = None, right = None):
+        self.data = data
+        self.left = left
+        self.right = right 
+         
+
+def is_binary_tree_balanced(tree: BinaryTreeNode):
     BalanceAndHeight = collections.namedtuple('BalanceAndHeight',('balanced', 'height'))
     def check_balance(tree):
         #Base case 

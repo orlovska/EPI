@@ -9,3 +9,6 @@ sys.path.insert(before_other_code_search_places, project_root)
 
 from python_code import rectangle_intersection
 from python_code import recursion_phone_mnemonics
+from python_code import binary_tree_height_balanced
+from python_code import BinaryTreeNode
+from python_code import permute_elements
